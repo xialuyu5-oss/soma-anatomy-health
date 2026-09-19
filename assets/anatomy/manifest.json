@@ -1,0 +1,97 @@
+{
+  "revision": "37e85dfbbb398e11ba33c8f0e411f06f9bba592f",
+  "geometryModification": "None; original GLB bytes preserved",
+  "records": [
+    {
+      "file": "assets/skeleton.glb",
+      "url": "https://raw.githubusercontent.com/DrMuratAltun/anatomi-simulatoru/37e85dfbbb398e11ba33c8f0e411f06f9bba592f/systems/iskelet.glb",
+      "license": "CC-BY-SA-4.0",
+      "bytes": 5268924,
+      "sha256": "43b4b27487db537e2e1ae2c87d3408f8d22943eb03eb6415a2833c865d82e4cf",
+      "meshes": 233,
+      "nodes": 277
+    },
+    {
+      "file": "assets/muscles.glb",
+      "url": "https://raw.githubusercontent.com/DrMuratAltun/anatomi-simulatoru/37e85dfbbb398e11ba33c8f0e411f06f9bba592f/systems/kas.glb",
+      "license": "CC-BY-SA-4.0",
+      "bytes": 8080656,
+      "sha256": "c940d22bc605e4f0061f10bd64a466ed2c957816180620c5c71401e6714789ab",
+      "meshes": 625,
+      "nodes": 683
+    },
+    {
+      "file": "assets/nerves.glb",
+      "url": "https://raw.githubusercontent.com/DrMuratAltun/anatomi-simulatoru/37e85dfbbb398e11ba33c8f0e411f06f9bba592f/systems/sinir.glb",
+      "license": "CC-BY-SA-4.0",
+      "bytes": 8061008,
+      "sha256": "1cb256c0d7a40167ff48564c15abf5a002af690a4cac200960a071400159b67f",
+      "meshes": 549,
+      "nodes": 582
+    },
+    {
+      "file": "assets/vessels.glb",
+      "url": "https://raw.githubusercontent.com/DrMuratAltun/anatomi-simulatoru/37e85dfbbb398e11ba33c8f0e411f06f9bba592f/systems/dolasim.glb",
+      "license": "CC-BY-SA-4.0",
+      "bytes": 7875580,
+      "sha256": "e7e0381b6f0b0b421fa80e61b0bb3fd0327cac17f388bf66d63335671ac2fa42",
+      "meshes": 676,
+      "nodes": 676
+    },
+    {
+      "file": "assets/organs.glb",
+      "url": "https://raw.githubusercontent.com/DrMuratAltun/anatomi-simulatoru/37e85dfbbb398e11ba33c8f0e411f06f9bba592f/systems/ic-organlar.glb",
+      "license": "CC-BY-SA-4.0",
+      "bytes": 4818260,
+      "sha256": "129fcb0d132d4a1a34c0305b556a7edfd07f5efb4a70c88add45825afebd58e5",
+      "meshes": 117,
+      "nodes": 120
+    },
+    {
+      "file": "assets/lymph.glb",
+      "url": "https://raw.githubusercontent.com/DrMuratAltun/anatomi-simulatoru/37e85dfbbb398e11ba33c8f0e411f06f9bba592f/systems/lenf.glb",
+      "license": "CC-BY-SA-4.0",
+      "bytes": 1510536,
+      "sha256": "2a2ad46df2619ff95b1aae421de85154f7fd4c04828d357dd774681cb953e614",
+      "meshes": 111,
+      "nodes": 163
+    },
+    {
+      "file": "assets/joints.glb",
+      "url": "https://raw.githubusercontent.com/DrMuratAltun/anatomi-simulatoru/37e85dfbbb398e11ba33c8f0e411f06f9bba592f/systems/eklem.glb",
+      "license": "CC-BY-SA-4.0",
+      "bytes": 3650796,
+      "sha256": "9ee061b2fca3bf090992c13293ee9b1438b5a6cd4d4a81af40ec8f6c8d75c449",
+      "meshes": 412,
+      "nodes": 413
+    },
+    {
+      "file": "assets/anatomy/LICENSE-DATA.md",
+      "url": "https://raw.githubusercontent.com/DrMuratAltun/anatomi-simulatoru/37e85dfbbb398e11ba33c8f0e411f06f9bba592f/LICENSE-DATA.md",
+      "license": "Upstream license notice",
+      "bytes": 960,
+      "sha256": "743533591cfda35938ac420dc9dabfe18f9e18807b5666804d4e3f92638c5ed3"
+    },
+    {
+      "file": "assets/anatomy/ATTRIBUTION.md",
+      "url": "https://raw.githubusercontent.com/DrMuratAltun/anatomi-simulatoru/37e85dfbbb398e11ba33c8f0e411f06f9bba592f/ATTRIBUTION.md",
+      "license": "Upstream license notice",
+      "bytes": 2252,
+      "sha256": "e7450e94a3f38922ba1a85babcb6afee7a72b9bec398e07ff0d5a832dbf8fa84"
+    },
+    {
+      "file": "vendor/three-r160.min.js",
+      "url": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js",
+      "license": "MIT",
+      "bytes": 669884,
+      "sha256": "170c6789f43217c96b3170f4b42fafe135de7f7cd48497a4218f9757ee1d49fa"
+    },
+    {
+      "file": "vendor/three-r160.LICENSE",
+      "url": "https://raw.githubusercontent.com/mrdoob/three.js/r160/LICENSE",
+      "license": "MIT",
+      "bytes": 1081,
+      "sha256": "852e0e8699169bf9f6fdc6bda3e682d078dcbc738b5d33e74df594721bff271d"
+    }
+  ]
+}
