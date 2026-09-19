@@ -1,0 +1,6 @@
+# Preserve asset/source checksums and the protected legacy baseline on every OS.
+* -text
+*.glb binary
+*.png binary
+*.jpg binary
+*.jpeg binary

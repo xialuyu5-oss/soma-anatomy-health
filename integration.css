@@ -1,0 +1,25 @@
+.soma-integrated .mode-nav{display:flex;overflow-x:auto;max-width:100%;min-width:0;justify-content:flex-start}
+.soma-integrated .mode-nav button{white-space:nowrap;flex:none;word-break:normal}
+.soma-integrated .mode-nav .integration-library-link{display:none!important}
+.soma-integrated .topbar{gap:14px;flex-wrap:wrap;min-height:76px;height:auto;padding-top:12px;padding-bottom:12px}
+.soma-integrated .topbar .brand{min-width:130px}
+.soma-integrated .topbar .header-actions{margin-left:auto}
+#composition-workspace{flex:1;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+#composition-workspace[hidden]{display:none!important}
+.integration-tools{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap;padding:8px 20px;background:var(--surface);border-bottom:1px solid var(--line)}
+.integration-tools p{margin:0 auto 0 0;font-size:12px;max-width:52ch}
+.integration-tools button,.integration-return{font-size:12px;white-space:normal;overflow-wrap:break-word}
+#composition-frame{border:0;width:100%;flex:1;min-height:0;background:#101416}
+.integration-return{margin-bottom:12px}
+.integration-health{border-top:1px solid var(--line);margin-top:24px;padding:20px 0 32px}
+.integration-health h2{font-size:18px}
+.integration-health-links{display:flex;align-items:center;gap:14px;flex-wrap:wrap;line-height:1.6}
+.integration-health-links a{color:var(--accent);text-decoration:underline;overflow-wrap:anywhere}
+#integration-related{border-top:1px solid var(--line);padding-top:12px;margin-top:16px}
+#integration-related h3{font-size:12px;font-weight:600}
+#integration-related button{margin:4px 6px 4px 0;font-size:12px;max-width:100%;white-space:normal}
+#integration-sources{color:inherit;white-space:nowrap;font-size:10px}
+.soma-integrated .rd-footer{gap:10px;flex-wrap:wrap;height:auto;min-height:28px;padding-top:5px;padding-bottom:5px}
+.soma-integrated .learn-card{min-width:0;overflow-wrap:break-word}
+@media(max-width:1000px){.soma-integrated .mode-nav{order:3;flex-basis:100%;position:static;display:flex;justify-content:flex-start}.soma-integrated .mode-nav button{padding:9px 13px;min-height:36px}}
+@media(max-width:700px){.soma-integrated .topbar{padding:10px 12px;min-height:106px}.soma-integrated .topbar .brand{min-width:105px}.soma-integrated .mode-nav{gap:4px}.soma-integrated .mode-nav button{font-size:11px;padding:9px 11px}.integration-tools{padding:7px 12px;gap:6px}.integration-tools button{padding:6px 9px;font-size:11px}.soma-integrated .rd-footer>span:nth-child(2){display:none}}

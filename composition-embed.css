@@ -1,0 +1,24 @@
+.composition-embedded body>header .brand,.composition-embedded body>header nav,.composition-embedded .language-picker{display:none}
+.composition-embedded body>header{display:none}
+.composition-embedded body>header .header-end{margin-left:auto}
+.composition-embedded .intro h1{font-size:clamp(24px,3vw,38px)}
+.composition-embedded .intro>div:not(.embed-actions){position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}
+.composition-embedded .intro{justify-content:flex-end}
+.embed-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+.embed-actions button{max-width:100%;white-space:normal}
+@media(min-width:901px){
+  .composition-embedded,.composition-embedded body{height:100%;overflow:hidden}
+  .composition-embedded body{display:flex;flex-direction:column}
+  .composition-embedded #studio{width:100%;flex:1;min-height:0;margin:0 auto}
+  .composition-embedded #studio>.workspace{display:flex;flex-direction:column;min-height:0;overflow:auto;padding:14px 22px}
+  .composition-embedded .intro{margin-bottom:12px;flex:none}
+  .composition-embedded .intro h1{font-size:24px}
+  .composition-embedded .intro .eyebrow{margin-bottom:5px}
+  .composition-embedded .intro p{font-size:12px;margin-top:5px}
+  .composition-embedded .stage{height:auto;flex:1;min-height:220px}
+  .composition-embedded .view-tools{flex:none;margin:10px 0}
+  .composition-embedded .metrics{flex:none;padding-top:10px}
+  .composition-embedded .metrics p{font-size:11px}
+  .composition-embedded #controls{max-height:none;min-height:0;height:100%;overflow:auto;position:relative}
+}
+@media(max-width:600px){.composition-embedded body>header{padding:8px 14px}}
